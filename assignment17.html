@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Assignment 17</title>
+        </head>
+        <body>
+            <form action="submit.php" method="POST">
+                <!-- Full Name -->
+                 <input type="text" name="fullname" placeholder="Full name" required><br><br>
+
+                 <!-- Email -->
+                  <input type="email" name="email" placeholder="you@college.edu" required><br><br>
+
+                  <!-- 10-digit Mobile -->
+                   <input type="tel" name="mobile" placeholder="10-digit mobile" pattern="[0-9]{10}" title="Enter exactly 10 digits" required><br><br>
+
+                   <!-- Age (17 to 30) -->
+                    <input type="number" name="age" placeholder="Age (17-30)" min="17" max="30" required><br><br>
+
+                    <!-- Submit Button -->
+                     <button type="submit">Register</button>
+                     </form>
+                     </body>
+                     </html>
